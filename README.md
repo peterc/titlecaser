@@ -1,16 +1,10 @@
 # Titlecaser
 
+Turn (English) text strings into Title Case using a variety of common rules.
 
+For example: *"An IRC client in your motherboard"* would become *"An IRC Client in Your Motherboard"*
 
-## Installation
-
-Install the gem and add to the application's Gemfile by executing:
-
-    $ bundle add titlecaser
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install titlecaser
+The rules are more extensive than that, but broadly follow common practice, with first words being capitalized, already capitalized words maintained, minor words lowercased, etc. This is used as the house style of titles in https://rubyweekly.com/ for example.
 
 ## Usage
 
@@ -27,6 +21,14 @@ Titlecaser::TitleCase.new("this is a test").convert
 ```
 
 Currently, we don't monkeypatch `String` but that could be an option later.
+
+## Installation
+
+    $ bundle add titlecaser
+
+or
+
+    $ gem install titlecaser
 
 ## Tests
 
