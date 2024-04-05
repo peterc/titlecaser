@@ -32,7 +32,13 @@ or
 
 ## Tests
 
-Note that there are tests in `/test` and a `titles.txt` file that's used to test a variety of title scenarios. These tests can be extended.
+Note that there are tests in `/test` and a `titles.txt` file that's used to test a variety of titlex scenarios. These tests can be extended.
+
+## TODOs
+
+* Don't change anything that's in backticks (code)
+* Handle hyphenated situations (e.g. Money-for-Nothing)
+* Don't change 'words' that contain complex punctuation (e.g. peterc/titlecaser)
 
 ## Contributing
 
